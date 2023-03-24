@@ -1,0 +1,103 @@
+.form_container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-default);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    gap: 1rem;
+    padding: 1.5rem 0 1.5rem 0;
+    margin-top: 2rem;
+}
+
+.description_container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem 0 1rem;
+}
+
+.description_container>label{
+    font-size: var(--text3);
+    line-height: 1.375rem;
+    color: var(--grey-4);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.description_container> input, .value_container>input, .typeTransaction_container>select{
+    height: 3rem;
+    background-color: var(--white);
+    border-radius: calc(var(--border-radius)*2);
+    border: 1.5px solid var(--white);
+    padding-left: 0.5rem;
+    line-height: 1.625rem;
+    font-size: var(--text1);
+    font-weight: 400;
+    color: var(--grey-3);
+    outline: none;
+}
+
+.description_container> p{
+    padding-top: 0.1875rem;
+    font-size: var(--text3);
+    line-height: 1.25rem;
+    color: var(--grey-3);
+}
+
+.value_container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem 0 1rem;
+    gap: 1rem;
+}
+
+.value_container>label{
+    font-size: var(--text3);
+    line-height: 1.375rem;
+    color: var(--grey-4);
+}
+
+.description_container> input:focus, .value_container>input:focus, .typeTransaction_container>select:focus{
+    border: 1.5px solid var(--grey-4);
+    cursor: pointer;
+}
+
+.typeTransaction_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.typeTransaction_container>label{
+    font-size: 0.75rem;
+    line-height: 1.375rem;
+    color: var(--grey-4);
+    padding-right: 1rem;
+}
+
+.typeTransaction_container>select{
+    color: var(--grey-4);
+    /* padding-right: 0.5rem; */
+}
+
+.form_container>button{
+    margin: 0 1rem 0 1rem;
+    height: 3rem;
+    background-color: var(--color-primary) ;
+    border: 1px solid var( --color-primary);
+    border-radius: calc(var(--border-radius)*2);
+    color: var(--white-default);
+    font-size: var(--text1);
+    font-weight: 500;
+}
+
+.form_container>button:hover{
+    background-color: var(--color-primary-2);
+    border: 1px solid var(--color-primary-2);
+}
+
+@media (min-width: 768px){
+    .form_container{
+        width: 22.1875rem;
+        padding: 2rem 0 3rem 0;
+    }
+}

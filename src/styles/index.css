@@ -1,0 +1,37 @@
+@import "./reset.css";
+@import "./global.css";
+
+.app_container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.formAndTotal_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.list_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .app_container{
+        height: 99vh;
+    }
+    .list_container{
+        margin-top: 2rem;
+    }
+
+    .formAndTotal_container{
+        width: auto;
+    }
+}

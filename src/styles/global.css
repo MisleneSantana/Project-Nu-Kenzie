@@ -1,0 +1,32 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+:root {
+    --color-primary: #FD377E;
+    --color-primary-2: #E34981;
+    --color-secondary: #03B898;
+    --grey-5: #343A40;
+    --grey-4: #212529;
+    --grey-3: #868E96;
+    --grey-2: #E9ECEF;
+    --white: #F8F9FA;
+    --white-default: #FFFFFF;
+
+    /* Fonts */
+    --text3: 0.75rem;
+    --text2: 0.875rem;
+    --text1: 1rem;
+    --title3: 1.25rem;
+    --title2: 1.5rem;
+    --title1: 2rem;
+
+    /* Border-radius */
+    --border-radius: 4px;
+
+    /* Inputs, Buttons */
+    --button-width: 8.0625rem;
+    --button-heigth: 0.28rem;
+}
